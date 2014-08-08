@@ -1,0 +1,56 @@
+<STYLE type=text/css>
+
+.body {
+	background-color: #404040;
+	font-family: "Courier New", Courier, monospace;
+	color: white; padding: 0;
+	margin: 0;
+}
+.h1 {
+	color: #404040; font-size: 40pt; margin-right: 10%; padding: 5% 0; display: inline;
+}
+.hr {
+	margin-bottom: 0pt;
+	display: block;
+}
+#redbox {
+	background-color: #F16745; padding: 5% 0; margin: 0; text-align: RIGHT;
+}
+#yellowbox {
+	background-color: #FFC65D; min-height: 40px;
+}
+#greenbox {
+	background-color: #7BC8A4; min-height: 20px; position: relative; z-index: 2;
+}
+#purplebox {
+	background-color: #93648D; padding: 1% 0; text-align: center;
+}
+#blogtext {
+	margin-left: 10%; margin-right: 10%;
+}
+.center {
+	text-align: center;
+}
+.tab {
+	font-size: x-large; text-align: center; color: #404040; width: 20%; border-radius: 5px; padding: 8px; position: relative; top: -5px; z-index: 1
+}
+.left {
+	margin-left: 10%; float: left;
+}
+.middle {
+	float: center; display:inline-block;
+}
+.right {
+	margin-right: 10%; float: right;
+}
+.blue {
+	background-color: #4CC3D9;
+}
+.green {
+	background-color: #7BC8A4;
+}
+.space {
+	height: 50px;
+}
+
+</STYLE>
