@@ -1,0 +1,39 @@
+header {
+    background-color: #7299CC;
+    text-align: center;
+    border-bottom: 3px solid black;
+    padding-top: 3%;
+    font-family: 'Indie Flower';
+}
+.left-top {
+    float: left;
+}
+.right-top {
+    float: right;
+}
+.left {
+    float: left;
+    width: 40%;
+}
+.right {
+     float: right;
+}
+.box {
+    border: 2px solid black;
+    width: 45%;
+    padding: 2%;
+    border-radius: 10px;
+    margin-top: 1%;
+
+}
+img {
+    padding: 2%;
+    width: 30%;
+    height: auto;
+    float: center;
+}
+
+h2 {
+    font-family: 'Indie Flower';
+    text-align: center;
+}
