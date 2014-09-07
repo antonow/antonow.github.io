@@ -1,0 +1,77 @@
+﻿<!DOCTYPE html>
+<html>
+  	<head>
+    	<link rel="stylesheet" type="text/css" href="../blog-stylesheet.css">
+		<title>antonow.github.io</title>
+		<style type="text/css">
+			body {
+				background-color: #404040;
+				font-family: "Courier New", Courier, monospace;
+				color: white; padding: 0;
+				margin: 0;
+			}
+			h1 {
+				color: #404040; font-size: 40pt; margin-right: 10%; padding: 5% 0; display: inline;
+			}
+		</style>
+  	</head>
+  	<header>
+  		<div id="redbox">
+  			<h1>antonow.github.io</h1>
+  		</div>
+  		<div id="yellowbox"></div>
+		<div id="greenbox"></div>
+		<nav class="center">
+			<a href="projects.html"><span class="tab left blue">Projects</span></a>
+			<a href="aboutme.html"><span class="tab middle blue">About Me</span></a>
+			<span class="tab right green">Blog</span>
+		</nav>
+		<div class="space"></div>
+ 	</header>
+  	<body>
+  		<div id="blogtext">
+  			<h3>Why Uses Classes</h3>
+  			<p>9/6/14</p>
+			<p>The most popular programming languages nowadays are object oriented programming (OOP) languages. What characterizes OOP is the focus on organizing code into objects that, in a way, represent real world objects. For example, we could have a class called Player and create player “objects” that would be instances of the Player's class.</p>
+
+			<pre>class Player<br>	@@count = 0<br><br>	def initialize(species, stamina)<br>		@@count += 1<br>		@species = species<br>		@stamina = stamina<br>	end<br>	def eat(food_item)<br>		stamina += food_item.nutrition<br>		puts “Mmmm, yummy.”<br>	end<br>end<br><br>joJo = Player.new(“human”, 70)<br>qiQi = Player.new(“alien”, 90)</pre>
+
+			<p>What this type of organization allows us to do is to easily add new players with unique attributes and also make universal changes to the properties of all individual players at once.</p>
+
+			<p>Classes represent the general category that includes all the different objects that belong to that category. If you like Plato, classes are like the Platonic forms from which all the particulars derive their attributes.</p>
+
+			<p>All objects in OOP are instances of some class and inherit the features of that class. In our example, any new player is going to inherit species and stamina attributes from the Player class.</p>
+
+			<p>Another major benefit of using classes is encapsulation. Encapsulation means that variables and methods defined within an object or a class are self-contained and do not interfere with any variables and methods that have been defined elsewhere in the program. Classes make sharing and borrowing code much easier. Sites like PHPclasses.org require uploading code as classes so that the borrowed code doesn’t affect the rest of the code in a project when you try to incorporate it.</p>
+
+			<p>Finally, when people write about the benefits of OOP, they usually mention polymorphism. I understand polymorphism as a quality of code that makes it usable across different types of objects. I know that sounds quite nebulous, so I’ll try to illustrate with an example.</p>
+
+			<p>In my earlier example, I could call the eat method on any instance of the Player class. Now, I want to also have animals in my game which will, like players, also have the ability to eat, but they won’t be able to articulate their pleasure derived from eating by saying “Mmmm, yummy.” The solution? I can make another class called Animal and write an eat method that will increase stamina without the remarks. The ability to call the eat method on instances of both the Animal and Player class and have each produce a different but appropriate effect is what is called polymorphism.</p> 
+
+			<p>So if you intend to share your code with the community, to incorporate others’ code from online, or even just to have nicely organized and compartmentalized code I recommend using classes.</p>
+
+  			<div class="space"></div>
+  			<div class="space"></div>
+  		<!--
+  		<a href="aboutme.html">
+	  		<div class="halfCircleLeft purple">
+	  			<p class="arrowLeft"><b> < </b></p>
+	  		</div>
+	  	</a>
+
+  		<div class="space"></div>
+
+  		<a href="projects.html">
+  			<div class="halfCircleRight purple">
+  				<p class="arrowRight"><b> > </b></p>
+  			</div>
+  		</a>
+  		-->
+  		</div>
+	</body>
+	<footer>
+		<div id="purplebox">
+			<p style="text-align: center">Copyright 2014 --> Alexander Antonow</p>
+		</div>
+  	</footer>
+</html>
