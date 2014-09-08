@@ -9,6 +9,18 @@ html {
 h1 {
 	color: #404040; margin-right: 10%; padding: 5% 0; display: inline;
 }
+h3 {
+	font-size: 1.75em;
+}
+p {
+	font-size: 1.3em;
+}
+pre {
+	font-size: 1.3em;
+}
+li {
+	font-size: 1.3em;
+}
 a {
 	color: white;
 }
