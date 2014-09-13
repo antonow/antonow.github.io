@@ -46,11 +46,11 @@
 
 			<p>One problem with inheritance is that changing any method in the parent class will have important repercussions on all classes that inherit from it. An alternative to inheritance is composition.</p>
 
-			<p>With composition, you still have two different classes but the relationship between them doesn’t have to be so top-down. Whereas inheritance can be summarized by a is-a relationship (Iguana is a Reptile), composition is comparable to a has-a relationship. Here’s what composition would look like with our Reptile and Iguana classes.</p>
+			<p>With composition, you still have two different classes but the relationship between them doesn’t have to be so top-down. Whereas inheritance can be summarized by an is-a relationship (Iguana is a Reptile), composition is comparable to a has-a relationship. Here’s what composition would look like with our Reptile and Iguana classes.</p>
 
 			<pre>class Reptile<br>	def eat<br>		puts “Nom nom"<br>	end<br>end<br><br>class Iguana<br>	attr_accessor :instance<br><br>	def initialize<br>		@instance = Reptile.new<br>	end<br>end<br><br>robby = Iguana.new<br>robby.instance.eat<br>=> "Nom nom"</pre>
 
-			<p>In this example, it has required the addition of several lines of code inside the Iguana class, but composition has its benefits. It’s less likely to cause undefined method errors when the parent class is changed because the child class simply initializes an instance of the parent class with whatever methods the parent class currently contains. Composition also allows for the relationship to be reversed; if necessary, we could have the Reptile class use methods contained in the Iguana class by initializing an instance of Iguana inside the Reptile class.</p>
+			<p>In this example, composition has required the addition of several lines of code inside the Iguana class, but composition has its benefits. It’s less likely to cause undefined method errors when the parent class is changed. This is because the child class simply initializes an instance of the parent class with whatever methods the parent class currently contains. Composition also allows for the relationship to be reversed; if necessary, we could have the Reptile class use methods contained in the Iguana class by initializing an instance of Iguana inside the Reptile class.</p>
 
 			<p>It seems that, in general, programmers advocate using composition over inheritance because of the increased flexibility, but, as always, it is a personal choice and sometimes inheritance may simply make more sense than composition. Following any rule indiscriminately is never a good idea.</p>
 
