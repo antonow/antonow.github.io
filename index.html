@@ -31,47 +31,54 @@
  	</header>
   	<body>
   		<div id="blogtext">
-			<h3>Why Uses Classes</h3>
-  			<p>9/6/14</p>
-			<p>The most popular programming languages nowadays are object oriented programming (OOP) languages. What characterizes OOP is the focus on organizing code into objects that, in a way, represent real world objects. For example, we could have a class called Player and create player “objects” that would be instances of the Player's class.</p>
+			<h3>Inheritance vs. Composition</h3>
+  			<p>9/12/14</p>
+			<p>Inheritance and Composition are both ways of borrowing code from a different class to avoid having to rewrite methods that have already been written elsewhere.</p>
 
-			<pre>class Player<br>	@@count = 0<br><br>	def initialize(species, stamina)<br>		@@count += 1<br>		@species = species<br>		@stamina = stamina<br>	end<br>	def eat(food_item)<br>		stamina += food_item.nutrition<br>		puts “Mmmm, yummy.”<br>	end<br>end<br><br>joJo = Player.new(“human”, 70)<br>qiQi = Player.new(“alien”, 90)</pre>
+			<p>Classes have the (good but sometimes inconvenient) quality of encapsulation - that is, that methods belonging to a class cannot be called except from an instance of that class. But sometimes we realize that we’ve already written a method that we would like to use, but that it is inaccessible because it’s in a different class.</p>
 
-			<p>What this type of organization allows us to do is to easily add new players with unique attributes and also make universal changes to the properties of all individual players at once.</p>
+			<p>One possible solution is inheritance. With inheritance there is a strict hierarchy. The child class inherits the methods of the parent class.</p>
 
-			<p>Classes represent the general category that includes all the different objects that belong to that category. If you like Plato, classes are like the Platonic forms from which all the particulars derive their attributes.</p>
+			<pre>class Reptile<br>   def eat<br>      puts “Nom nom"<br>   end<br>end<br><br>class Iguana < Reptile<br>end</pre>
 
-			<p>All objects in OOP are instances of some class and inherit the features of that class. In our example, any new player is going to inherit species and stamina attributes from the Player class.</p>
+			<p>In this example, the Iguana class inherits the methods of the Reptile class, which means that we can call the eat method on an instance of the Iguana class.</p>
 
-			<p>Another major benefit of using classes is encapsulation. Encapsulation means that variables and methods defined within an object or a class are self-contained and do not interfere with any variables and methods that have been defined elsewhere in the program. Classes make sharing and borrowing code much easier. Sites like <a href="http://www.phpclasses.org">www.phpclasses.org</a> require uploading code as classes so that the borrowed code doesn’t affect the rest of the code in a project when you try to incorporate it.</p>
+			<pre>robby = Iguana.new<br>robby.eat<br>=> “Nom nom”</pre>
 
-			<p>Finally, when people write about the benefits of OOP, they usually mention polymorphism. I understand polymorphism as a quality of code that makes it usable across different types of objects. I know that sounds quite nebulous, so I’ll try to illustrate with an example.</p>
+			<p>One problem with inheritance is that changing any method in the parent class will have important repercussions on all classes that inherit from it. An alternative to inheritance is composition.</p>
 
-			<p>In my earlier example, I could call the eat method on any instance of the Player class. Now, I want to also have animals in my game which will, like players, also have the ability to eat, but they won’t be able to articulate their pleasure derived from eating by saying “Mmmm, yummy.” The solution? I can make another class called Animal and write an eat method that will increase stamina without the remarks. The ability to call the eat method on instances of both the Animal and Player class and have each produce a different but appropriate effect is what is called polymorphism.</p> 
+			<p>With composition, you still have two different classes but the relationship between them doesn’t have to be so top-down. Whereas inheritance can be summarized by an is-a relationship (Iguana is a Reptile), composition is comparable to a has-a relationship. Here’s what composition would look like with our Reptile and Iguana classes.</p>
 
-			<p>So if you intend to share your code with the community, to incorporate others’ code from online, or even just to have nicely organized and compartmentalized code I recommend using classes.</p>
+			<pre>class Reptile<br>    def eat<br>        puts “Nom nom"<br>    end<br>end<br><br>class Iguana<br>    attr_accessor :instance<br><br>    def initialize<br>        @instance = Reptile.new<br>    end<br>end<br><br>robby = Iguana.new<br>robby.instance.eat<br>=> "Nom nom"</pre>
+
+			<p>In this example, composition has required the addition of several lines of code inside the Iguana class, but composition has its benefits. It’s less likely to cause undefined method errors when the parent class is changed. This is because the child class simply initializes an instance of the parent class with whatever methods the parent class currently contains. Composition also allows for the relationship to be reversed; if necessary, we could have the Reptile class use methods contained in the Iguana class by initializing an instance of Iguana inside the Reptile class.</p>
+
+			<p>It seems that, in general, programmers advocate using composition over inheritance because of the increased flexibility, but, as always, it is a personal choice and sometimes inheritance may simply make more sense than composition. Following any rule indiscriminately is never a good idea.</p>
 
   			<div class="space"></div>
+  			<p class="center">*    *    *    *    *    *    *    *    *    *    *    *    *    *    *    *</p>
+  			<!-- <pre>
+				     /\          /\          /\       
+				  /\//\\/\    /\//\\/\    /\//\\/\  
+				 //\\\///\\/\//\\\///\\/\//\\\///\\ 
+				 \\//\/\\///\\\//\/\\///\\\//\/\\//
+				  \/    \/\\//\/    \/\\//\/    \/  
+				           \/          \/            
+  			</pre> -->
   			<div class="space"></div>
 
-  			<h3>Pairing and Feedback</h3>
-  			<p>9/7/14</p>
+  			<h3>Let’s Talk About Stereotype Threat</h3>
+  			<p>9/13/14</p>
 
-			<p>Dev Bootcamp focuses a lot on pair programming and exchanging feedback. Every week throughout Phase 0 of the program we are expected to pair at least twice with others in our cohort.</p>
+			<p>Social psychologist Claude M. Steele has for many years been studying the underperformance of racial minority students. He has coined the term stereotype threat to help explain why minority university students tend to underperform in comparison to white students - even when their standardized test scores for admissions were equivalent.</p>
 
-			<p>As a result, I’ve learned a lot about working with people. Up until now I’ve usually worked alone on personal projects and school assignments. I like working alone because of the control I have over the final product and because of the flexibility that comes with not having to coordinate schedules with someone.</p>
+			<p>Stereotype threat refers to an anxiety that comes from a fear of being judged and of reinforcing negative racial stereotypes by doing poorly on an examination. This anxiety, whether conscious or not, increases the pressure to perform and reduces the ability to focus.</p>
 
-			<p>But pair programming has so far been mostly a positive experience. Many times I’ve learned new tricks and methods while pairing. Many times pairing is the fastest way to overcome a roadblock in a challenge.</p>
+			<p>Surprisingly, in studies, something as small as a statement that the test-to-be-administered is “racially fair” or is not going to be used as an assessment of intellectual capacity was often successful in equalizing test scores.</p>
 
-			<p>On the other hand, there have been times while pairing that I was silently hoping to finish up a challenge alone. I think it’s natural that we get along and work well with some people, but just don’t “click” with others. That’s why giving feedback is important. It forces you to identify what it was that was bothering you in the pairing session and express it kindly in your feedback.</p>
+			<p>How can we apply our knowledge about this problem? Trust is an important factor. When people trust that their performance will not be assessed in the context of race, anxiety from stereotype threat and underperformance tend to disappear.</p>
 
-			<p>I’ve learned that I work best with a pair who is engaged with the challenge and has her own ideas about how to tackle it. I’d rather work with someone who is pushy than apathetic. At least if my pair is pushy, I can push back and we can have a productive discussion regarding the best route to take.</p>
-
-			<p>I’ve learned that people also work at different paces. Some of us like to power through and get to the solution quickly, and some of us like to think things through and create more slick and elegant solutions. When you’re in a hurry to complete something, working with someone who likes to take their time can be frustrating. The inverse is also true.</p>
-
-			<p>Giving and receiving feedback has been a learning experience as well. While giving feedback I try to be honest and not pretend that something that was bothering me wasn’t bothering me. I do so because I hope that others will also give me their honest feedback as well. Looking at feedback from others, I sometimes think that it is a bit too diplomatic and it could benefit from some more directness.</p>
-
-			<p>Overall, I think pairing and doing feedback has been just as much of a learning experience as the actual coding itself. I’ve learned that I need to articulate more of what I’m doing/thinking, and I’m thankful for that feedback.</p>
+			<p>If we want to bring about change, we need to start with our own microcosms. For me at Dev Bootcamp, this means helping foster a welcoming and cooperative environment. In terms of giving feedback, it means maybe adding a disclaimer to constructive criticism. “I know it may seem that I’m being somewhat critical here, but please understand that I’m critical with everyone because I want to help everyone improve."</p>
 
   		</div>
   		<div class="space"></div>
@@ -91,7 +98,24 @@
 	</body>
 	<footer>
 		<div id="purplebox">
-			<p style="text-align: center">Copyright 2014 --> Alexander Antonow</p>
+			<p style="text-align: center">
+				// <script language="JavaScript">
+				// <!--
+				// var r_text = new Array ();
+				// r_text[0] = "support tha american dream n make coding available to EVERYONE!!  - Snoop Dogg";
+				// r_text[1] = "And the sky is grey";
+				// r_text[2] = "I've been for a walk";
+				// r_text[3] = "On a winter's day";
+				// r_text[4] = "I'd be safe and warm";
+				// r_text[5] = "If I was in L.A.";
+				// r_text[6] = "California dreaming, On such a winter's day";
+				// var i = Math.floor(7*Math.random())
+
+				// document.write(r_text[i]);
+
+				// //-->
+				// </script>
+			</p>
 		</div>
   	</footer>
 </html>
