@@ -31,54 +31,45 @@
  	</header>
   	<body>
   		<div id="blogtext">
-			<h3>Inheritance vs. Composition</h3>
-  			<p>9/12/14</p>
-			<p>Inheritance and Composition are both ways of borrowing code from a different class to avoid having to rewrite methods that have already been written elsewhere.</p>
+			<h3>What are SQL Injection Attacks?</h3>
+  			<p>9/20/14</p>
+			<p>Many website databases are created and maintained using Structured Query Language (SQL). Websites often allow users to access particular information from the database. A simple web application could take a users input and use it to make a database query, like in this Ruby example:</p>
 
-			<p>Classes have the (good but sometimes inconvenient) quality of encapsulation - that is, that methods belonging to a class cannot be called except from an instance of that class. But sometimes we realize that we’ve already written a method that we would like to use, but that it is inaccessible because it’s in a different class.</p>
+			<pre>def print_reps_from_state(state)<br>  puts "#{state} REPRESENTATIVES"<br>  output = $db.execute("SELECT name FROM congress_members WHERE location = '#{state}'")<br>  output.each { |rep| puts rep }<br>end</pre>
 
-			<p>One possible solution is inheritance. With inheritance there is a strict hierarchy. The child class inherits the methods of the parent class.</p>
+			<p>$db.execute(…) takes the user’s input (state) and uses it to make a query to the database. If the user is knowledgeable in SQL, they could pass in an input containing an SQL command to give them more access to the database then was intended by the person putting together the website. They may be able to view all the records in a table, add new records, and alter or delete records.</p>
 
-			<pre>class Reptile<br>   def eat<br>      puts “Nom nom"<br>   end<br>end<br><br>class Iguana < Reptile<br>end</pre>
+			<p>This all happens because the user’s input is passed directly into the SQL query ("SELECT name FROM congress_members WHERE location = '#{state}’") where it says #{state}. The only way to prevent an SQL injection attack is to never directly pass in a user’s input into the query.</p>
 
-			<p>In this example, the Iguana class inherits the methods of the Reptile class, which means that we can call the eat method on an instance of the Iguana class.</p>
+			<p>The user’s input must be sanitized to make sure that it does not contain any code that might expose the database to an attack. Rather than try to test the input for all the known SQL injection attack techniques, it’s easier to verify that the input doesn’t have any more characters or symbols than it needs.</p>
 
-			<pre>robby = Iguana.new<br>robby.eat<br>=> “Nom nom”</pre>
+			<p>For example, if we are asking the user for an email, we would make sure that it does not contain any spaces or other characters that aren’t allowed in an email address. Better yet, we could ping the email address to verify it exists. Only after we have verified that the input provided by the user is safe should we use it to do a query to the database.</p>
 
-			<p>One problem with inheritance is that changing any method in the parent class will have important repercussions on all classes that inherit from it. An alternative to inheritance is composition.</p>
-
-			<p>With composition, you still have two different classes but the relationship between them doesn’t have to be so top-down. Whereas inheritance can be summarized by an is-a relationship (Iguana is a Reptile), composition is comparable to a has-a relationship. Here’s what composition would look like with our Reptile and Iguana classes.</p>
-
-			<pre>class Reptile<br>    def eat<br>        puts “Nom nom"<br>    end<br>end<br><br>class Iguana<br>    attr_accessor :instance<br><br>    def initialize<br>        @instance = Reptile.new<br>    end<br>end<br><br>robby = Iguana.new<br>robby.instance.eat<br>=> "Nom nom"</pre>
-
-			<p>In this example, composition has required the addition of several lines of code inside the Iguana class, but composition has its benefits. It’s less likely to cause undefined method errors when the parent class is changed. This is because the child class simply initializes an instance of the parent class with whatever methods the parent class currently contains. Composition also allows for the relationship to be reversed; if necessary, we could have the Reptile class use methods contained in the Iguana class by initializing an instance of Iguana inside the Reptile class.</p>
-
-			<p>It seems that, in general, programmers advocate using composition over inheritance because of the increased flexibility, but, as always, it is a personal choice and sometimes inheritance may simply make more sense than composition. Following any rule indiscriminately is never a good idea.</p>
+			<p>So what’s the only way to prevent SQL injection attacks? Never directly pass in a user’s input to an SQL query. Always make sure that if you are going to use a user’s input in a query that the input does not contain any potentially dangerous code.</p>
 
   			<div class="space"></div>
-  			<p class="center">*    *    *    *    *    *    *    *    *    *    *    *    *    *    *    *</p>
-  			<!-- <pre>
-				     /\          /\          /\       
-				  /\//\\/\    /\//\\/\    /\//\\/\  
-				 //\\\///\\/\//\\\///\\/\//\\\///\\ 
-				 \\//\/\\///\\\//\/\\///\\\//\/\\//
-				  \/    \/\\//\/    \/\\//\/    \/  
-				           \/          \/            
-  			</pre> -->
   			<div class="space"></div>
 
-  			<h3>Let’s Talk About Stereotype Threat</h3>
-  			<p>9/13/14</p>
+  			<h3>The Value Finder</h3>
+  			<p>9/21/14</p>
 
-			<p>Social psychologist Claude M. Steele has for many years been studying the underperformance of racial minority students. He has coined the term stereotype threat to help explain why minority university students tend to underperform in comparison to white students - even when their standardized test scores for admissions were equivalent.</p>
+			<p>This week I put together a small Ruby program to help determine my most important values. Each question asks you to choose between two different values, like this:</p>
 
-			<p>Stereotype threat refers to an anxiety that comes from a fear of being judged and of reinforcing negative racial stereotypes by doing poorly on an examination. This anxiety, whether conscious or not, increases the pressure to perform and reduces the ability to focus.</p>
+			<pre>Wisdom (A) or Integrity (B)?<br>Courage (A) or Accountability (B)?<br>Meaningful work (A) or Security (B)?</pre>
 
-			<p>Surprisingly, in studies, something as small as a statement that the test-to-be-administered is “racially fair” or is not going to be used as an assessment of intellectual capacity was often successful in equalizing test scores.</p>
+			<p>The winners of each question move up in rank and are then pitted against the other winners. At the end, the program prints out all the values in order from the most important to the least important.</p>
 
-			<p>How can we apply our knowledge about this problem? Trust is an important factor. When people trust that their performance will not be assessed in the context of race, anxiety from stereotype threat and underperformance tend to disappear.</p>
+			<p>Here were my top 25% most important values out of a total of 96 words (in no particular order):</p>
 
-			<p>If we want to bring about change, we need to start with our own microcosms. For me at Dev Bootcamp, this means helping foster a welcoming and cooperative environment. In terms of giving feedback, it means maybe adding a disclaimer to constructive criticism. “I know it may seem that I’m being somewhat critical here, but please understand that I’m critical with everyone because I want to help everyone improve."</p>
+			<pre>Meaningful-work   Helping-society   Personal-development   Insight<br>Freedom   Economic-security   Health   Ambition<br>Growth   Achievement   Challenge   Justice<br>Independence   Wisdom   Self-reliance   Autonomy<br>Truth   Excellence   Self-knowledge   Nature<br>Knowledge   Cooperation   Fairness   Openness</pre>
+
+			<p>Self-knowledge is particularly important to me because I believe that we are always entrenched in personal biases and ideologies that taint our perceptions in ways that we aren’t aware of. Great ideas come from stepping out of old or current modes of thinking. But to do this we must be aware of our biases and be willing to rethink our most basic assumptions.</p>
+
+			<p>Wealth, although not on my list of top values, was the last topic that someone had asked my advice on. The advice I gave my friend regarding investing in the stock market was to invest long-term in strong companies that will likely continue to grow. Tesla Motors, despite large gains in stock price over the last 2 years already, is a company that still has a lot of momentum, I think.*</p>
+
+			<p>Thinking about and ranking my values has been a helpful exercise. It helps me clarify who I am and what I stand for. I’m thinking of developing my program further and making it available online. At the moment, my knowledge of Ruby on Rails or Sinatra is too limited to let me to do justice to the idea of how I would like it to be. I’ll post a link when I eventually do get it up and running.</p>
+
+			<p>*At the time of writing, TSLA is at $259.32.</p>
 
   		</div>
   		<div class="space"></div>
