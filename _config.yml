@@ -1,9 +1,9 @@
 # Site settings
 title: antonow.github.io
 # email: alexantonow@gmail.com
-description: > # Where I write about things code related
+description: Where I write about things code related
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://antonow.github.io/" # the base hostname & protocol for your site
+url: "http://antonow.github.io" # the base hostname & protocol for your site
 twitter_username: alexantonow
 github_username:  antonow
 
