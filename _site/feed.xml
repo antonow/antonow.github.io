@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>antonow.github.io</title>
+    <description></description>
+    <link>http://localhost:4000//</link>
+    <atom:link href="http://localhost:4000//feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Thu, 18 Dec 2014 22:08:23 -0600</pubDate>
+    <lastBuildDate>Thu, 18 Dec 2014 22:08:23 -0600</lastBuildDate>
+    <generator>Jekyll v2.5.2</generator>
+    
+      <item>
+        <title>Asking the Right Questions</title>
+        <description>&lt;p&gt;What are questions? We all seem to know intuitively what they are. They are an articulation of something we don’t know, and, simultaneously, a request for assistance in finding an answer.&lt;/p&gt;
+
+&lt;p&gt;Good questions target that which the asker knows that they do not know. There is a certain humility involved in asking good questions. You say, “This part I understand, but this, to me, is still confusing.”&lt;/p&gt;
+
+&lt;p&gt;Bad questions betray to the listener the asker’s ignorance of their own ignorance. I remember attending a lecture about the differences between transcendental and hermeneutic approaches to phenomenology, which went completely over my head, but at least I had the good sense of not asking any (probably) stupid questions. Another student, however, asked a totally incoherent question (regarding something about Jim Morrison and acid) that had nothing to do with anything that had been said. Even I couldn’t help feeling embarrassed for her.&lt;/p&gt;
+
+&lt;p&gt;Bad questions are vague, confusingly put, and, at worst, completely incoherent. Good questions are the opposite. They demonstrate to the listener that the asker has studied the problem, isolated an impasse in their understanding, and articulated exactly what that is. Many times, in the process of narrowing down a question to formulate a good one, the question answers itself!&lt;/p&gt;
+
+&lt;p&gt;I’ll end with several suggestions for formulating good questions.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Do research first! Don’t waste people’s time asking questions that you can easily answer yourself.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Be specific.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Be humble. Be honest about what you don’t know. Don’t pretend to know more than you do because you might get a highly technical answer that presumes you already know the fundamentals.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+</description>
+        <pubDate>Sun, 05 Oct 2014 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000//cultural%20questions/2014/10/05/asking-the-right-questions.html</link>
+        <guid isPermaLink="true">http://localhost:4000//cultural%20questions/2014/10/05/asking-the-right-questions.html</guid>
+        
+        
+        <category>cultural questions</category>
+        
+      </item>
+    
+      <item>
+        <title>Dealing with Conflict</title>
+        <description>&lt;p&gt;This week, the topic I am supposed to write about is an emotional conflict that I’ve had with someone. I usually avoid conflict at all costs, so I don’t have a very exciting story to tell. But I did have a friend recently release a secret of mine that could’ve had disastrous consequences.&lt;/p&gt;
+
+&lt;p&gt;Fortunately, the possible misfortune that it could have caused was avoided, and so I found myself able to eventually forgive him. But, for a while, I never brought up how he had wronged me and so harbored a little anger whenever I saw him.&lt;/p&gt;
+
+&lt;p&gt;I waited until my anger had entirely subsided and finally told him. On the one hand, the waiting helped ensure that I wouldn’t create an angry outburst. But, if I could go back, I would have confronted him earlier. I learned that holding onto anger only hurts one’s self and doesn’t do anything for the other person.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 28 Sep 2014 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000//cultural%20conflict/2014/09/28/dealing.html</link>
+        <guid isPermaLink="true">http://localhost:4000//cultural%20conflict/2014/09/28/dealing.html</guid>
+        
+        
+        <category>cultural conflict</category>
+        
+      </item>
+    
+      <item>
+        <title>3 Sorting Algorithms (Bubble, Quick, and Merge)</title>
+        <description>&lt;p&gt;What is an algorithm? It is any set of instructions that a computer (or person) follows in order to achieve a desired solution.&lt;/p&gt;
+
+&lt;p&gt;Studying algorithms is important because better algorithms make programs more efficient. Many times the data set that a program needs to interact with is very large. In order for the program to complete in a reasonable amount of time, you can upgrade the speed of the computer or come up with a more efficient algorithm. Upgrading the computer can be prohibitively expensive, but with a new algorithm you can get more mileage out of the same hardware.&lt;/p&gt;
+
+&lt;p&gt;I want to look today at three different examples of sorting algorithms. The first algorithm is called “Bubble Sort.” It is a very basic sorting algorithm - one that anybody might come up with as an initial attempt at making a sorting algorithm. It works by going through the list of items to be sorted sequentially and comparing two adjacent values each time. The values then get swapped if they are in the wrong order.&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;n&quot;&gt;________________________________&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;7&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;6&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;9&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;swap&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;and&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+
+&lt;span class=&quot;n&quot;&gt;________________________________&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;7&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;6&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;9&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;do&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;not&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;swap&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;and&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;7&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+
+ &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;swap&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;7&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;and&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;6&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;________________________________&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;6&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;7&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;9&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;swap&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;7&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;and&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+
+&lt;span class=&quot;n&quot;&gt;________________________________&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;6&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;7&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;9&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;swap&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;7&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;and&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+
+&lt;span class=&quot;n&quot;&gt;________________________________&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;6&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;7&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;9&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;do&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;not&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;swap&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;7&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;and&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;9&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+
+ &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;swap&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;9&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;and&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;________________________________&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;6&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;7&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;9&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;result&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;after&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;st&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;pass&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;After the list has been iterated through once in this fashion, we iterate through it again and repeat the process until no swaps are made. Now we know that the list is ordered. This algorithm is very simple, but can take a very long time to execute. When it comes to algorithms, simplicity != efficiency.&lt;/p&gt;
+
+&lt;p&gt;A faster sorting algorithm is merge sort. Merge sort uses a divide and conquer strategy. All the numbers are separated and evaluated in pairs, like this:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;  &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;  &lt;span class=&quot;mi&quot;&gt;7&lt;/span&gt;  &lt;span class=&quot;mi&quot;&gt;6&lt;/span&gt;  &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;  &lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;  &lt;span class=&quot;mi&quot;&gt;9&lt;/span&gt;  &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;
+
+&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;  &lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;
+      &lt;span class=&quot;mi&quot;&gt;6&lt;/span&gt;  &lt;span class=&quot;mi&quot;&gt;7&lt;/span&gt;		  &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;divide&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;into&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;pairs&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+            &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;  &lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;
+		  &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;  &lt;span class=&quot;mi&quot;&gt;9&lt;/span&gt;
+
+&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;  &lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;  &lt;span class=&quot;mi&quot;&gt;6&lt;/span&gt;  &lt;span class=&quot;mi&quot;&gt;7&lt;/span&gt;		  &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;merge&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sorted&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;couples&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;and&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;compare&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;st&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;values&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+	    &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;  &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;  &lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;  &lt;span class=&quot;mi&quot;&gt;9&lt;/span&gt;	  
+
+&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;  &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;			  &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;get&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;and&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+
+      &lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;  &lt;span class=&quot;mi&quot;&gt;6&lt;/span&gt;  &lt;span class=&quot;mi&quot;&gt;7&lt;/span&gt; 		  &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;compare&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;st&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;values&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+	       &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;  &lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;  &lt;span class=&quot;mi&quot;&gt;9&lt;/span&gt;
+
+&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;  &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;  &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;  &lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;		  &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;get&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;and&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+
+	    &lt;span class=&quot;mi&quot;&gt;6&lt;/span&gt;  &lt;span class=&quot;mi&quot;&gt;7&lt;/span&gt;          &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;compare&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;st&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;values&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;get&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;and&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;6&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+	          &lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;  &lt;span class=&quot;mi&quot;&gt;9&lt;/span&gt;	  &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;compare&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;st&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;values&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;get&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;7&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;and&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;9&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+
+&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;  &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;  &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;  &lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;  &lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;  &lt;span class=&quot;mi&quot;&gt;6&lt;/span&gt;  &lt;span class=&quot;mi&quot;&gt;7&lt;/span&gt;  &lt;span class=&quot;mi&quot;&gt;9&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Another algorithm that has a comparable efficiency to merge sort is quick sort. In quick sort, you pick any number as the “pivot” number and compare it to each other number in the list. The numbers get moved to the right or left depending on whether they are higher or lower than the pivot. At the end of one of these iterations, the pivot number is guaranteed to be in its correct final position.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 28 Sep 2014 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000//technical%20algorithms/2014/09/28/3-sorting-algorithms-bubble-quick-and-merge.html</link>
+        <guid isPermaLink="true">http://localhost:4000//technical%20algorithms/2014/09/28/3-sorting-algorithms-bubble-quick-and-merge.html</guid>
+        
+        
+        <category>technical algorithms</category>
+        
+      </item>
+    
+      <item>
+        <title>The Value Finder</title>
+        <description>&lt;p&gt;This week I put together a small Ruby program to help determine my most important values. Each question asks you to choose between two different values, like this:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Wisdom (A) or Integrity (B)?&lt;/li&gt;
+  &lt;li&gt;Courage (A) or Accountability (B)?&lt;/li&gt;
+  &lt;li&gt;Meaningful work (A) or Security (B)?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The winners of each question move up in rank and are then pitted against the other winners. At the end, the program prints out all the values in order from the most important to the least important.&lt;/p&gt;
+
+&lt;p&gt;Here were my top 25% most important values out of a total of 96 words (in no particular order):&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;nx&quot;&gt;Meaningful&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;work&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;   &lt;span class=&quot;nx&quot;&gt;Helping&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;society&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;   &lt;span class=&quot;nx&quot;&gt;Personal&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;development&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;   &lt;span class=&quot;nx&quot;&gt;Insight&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;Freedom&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;   &lt;span class=&quot;nx&quot;&gt;Economic&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;security&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;   &lt;span class=&quot;nx&quot;&gt;Health&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;   &lt;span class=&quot;nx&quot;&gt;Ambition&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;Growth&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;   &lt;span class=&quot;nx&quot;&gt;Achievement&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;   &lt;span class=&quot;nx&quot;&gt;Challenge&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;   &lt;span class=&quot;nx&quot;&gt;Justice&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;Independence&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;   &lt;span class=&quot;nx&quot;&gt;Wisdom&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;   &lt;span class=&quot;nx&quot;&gt;Self&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;reliance&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;   &lt;span class=&quot;nx&quot;&gt;Autonomy&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;Truth&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;   &lt;span class=&quot;nx&quot;&gt;Excellence&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;   &lt;span class=&quot;nx&quot;&gt;Self&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;knowledge&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;   &lt;span class=&quot;nx&quot;&gt;Nature&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;Knowledge&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;   &lt;span class=&quot;nx&quot;&gt;Cooperation&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;   &lt;span class=&quot;nx&quot;&gt;Fairness&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;   &lt;span class=&quot;nx&quot;&gt;Openness&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Self-knowledge is particularly important to me because I believe that we are always entrenched in personal biases and ideologies that taint our perceptions in ways that we aren’t aware of. Great ideas come from stepping out of old or current modes of thinking. But to do this we must be aware of our biases and be willing to rethink our most basic assumptions.&lt;/p&gt;
+
+&lt;p&gt;Wealth, although not on my list of top values, was the last topic that someone had asked my advice on. The advice I gave my friend regarding investing in the stock market was to invest long-term in strong companies that will likely continue to grow. Tesla Motors, despite large gains in stock price over the last 2 years already, is a company that still has a lot of momentum, I think.*&lt;/p&gt;
+
+&lt;p&gt;Thinking about and ranking my values has been a helpful exercise. It helps me clarify who I am and what I stand for. I’m thinking of developing my program further and making it available online. At the moment however, I don’t know how to do that.&lt;/p&gt;
+
+&lt;p&gt;*At the time of writing, TSLA is at $259.32.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 21 Sep 2014 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000//cultural%20values/2014/09/21/the-value-finder.html</link>
+        <guid isPermaLink="true">http://localhost:4000//cultural%20values/2014/09/21/the-value-finder.html</guid>
+        
+        
+        <category>cultural values</category>
+        
+      </item>
+    
+      <item>
+        <title>What are SQL Injection Attacks?</title>
+        <description>&lt;p&gt;Many website databases are created and maintained using Structured Query Language (SQL). Websites often allow users to access particular information from the database. A simple web application could take a users input and use it to make a database query, like in this Ruby example:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_reps_from_state&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;state&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;state&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt; REPRESENTATIVES&amp;quot;&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;output&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;vg&quot;&gt;$db&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;execute&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;SELECT name FROM congress_members WHERE location = &amp;#39;&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;state&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;#39;&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;output&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;each&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;rep&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;rep&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;$db.execute(…) takes the user’s input (state) and uses it to make a query to the database. If the user is knowledgeable in SQL, they could pass in an input containing an SQL command to give them more access to the database then was intended by the person putting together the website. They may be able to view all the records in a table, add new records, and alter or delete records.&lt;/p&gt;
+
+&lt;p&gt;This all happens because the user’s input is passed directly into the SQL query (“SELECT name FROM congress_members WHERE location = ‘#{state}’”) where it says #{state}. The only way to prevent an SQL injection attack is to never directly pass in a user’s input into the query.&lt;/p&gt;
+
+&lt;p&gt;The user’s input must be sanitized to make sure that it does not contain any code that might expose the database to an attack. Rather than try to test the input for all the known SQL injection attack techniques, it’s easier to verify that the input doesn’t have any more characters or symbols than it needs.&lt;/p&gt;
+
+&lt;p&gt;For example, if we are asking the user for an email, we would make sure that it does not contain any spaces or other characters that aren’t allowed in an email address. Better yet, we could ping the email address to verify it exists. Only after we have verified that the input provided by the user is safe should we use it to do a query to the database.&lt;/p&gt;
+
+&lt;p&gt;So what’s the only way to prevent SQL injection attacks? Never directly pass in a user’s input to an SQL query. Always make sure that if you are going to use a user’s input in a query that the input does not contain any potentially dangerous code.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 20 Sep 2014 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000//technical%20sql%20injection/2014/09/20/what-are-sql-injection-attacks.html</link>
+        <guid isPermaLink="true">http://localhost:4000//technical%20sql%20injection/2014/09/20/what-are-sql-injection-attacks.html</guid>
+        
+        
+        <category>technical sql injection</category>
+        
+      </item>
+    
+      <item>
+        <title>Talking About Stereotype Threat</title>
+        <description>&lt;p&gt;Social psychologist Claude M. Steele has for many years been studying the underperformance of racial minority students. He has coined the term stereotype threat to help explain why minority university students tend to underperform in comparison to white students - even when their standardized test scores for admissions were equivalent.&lt;/p&gt;
+
+&lt;p&gt;Stereotype threat refers to an anxiety that comes from a fear of being judged and of reinforcing negative racial stereotypes by doing poorly on an examination. This anxiety, whether conscious or not, increases the pressure to perform and reduces the ability to focus.&lt;/p&gt;
+
+&lt;p&gt;Surprisingly, in studies, something as small as a statement that the test-to-be-administered is “racially fair” or is not going to be used as an assessment of intellectual capacity was often successful in equalizing test scores.&lt;/p&gt;
+
+&lt;p&gt;How can we apply our knowledge about this problem? Trust is an important factor. When people trust that their performance will not be assessed in the context of race, anxiety from stereotype threat and underperformance tend to disappear.&lt;/p&gt;
+
+&lt;p&gt;If we want to bring about change, we need to start with our own microcosms. For me at Dev Bootcamp, this means helping foster a welcoming and cooperative environment. In terms of giving feedback, it means maybe adding a disclaimer to constructive criticism. “I know it may seem that I’m being somewhat critical here, but please understand that I’m critical with everyone because I want to help everyone improve.”&lt;/p&gt;
+</description>
+        <pubDate>Sat, 13 Sep 2014 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000//cultural%20stereotype/2014/09/13/talking-about-stereotype-threat.html</link>
+        <guid isPermaLink="true">http://localhost:4000//cultural%20stereotype/2014/09/13/talking-about-stereotype-threat.html</guid>
+        
+        
+        <category>cultural stereotype</category>
+        
+      </item>
+    
+      <item>
+        <title>Inheritance vs. Composition</title>
+        <description>&lt;p&gt;Inheritance and Composition are both ways of borrowing code from a different class to avoid having to rewrite methods that have already been written elsewhere.&lt;/p&gt;
+
+&lt;p&gt;Classes have the (good but sometimes inconvenient) quality of encapsulation - that is, that methods belonging to a class cannot be called except from an instance of that class. But sometimes we realize that we’ve already written a method that we would like to use, but that it is inaccessible because it’s in a different class.&lt;/p&gt;
+
+&lt;p&gt;One possible solution is inheritance. With inheritance there is a strict hierarchy. The child class inherits the methods of the parent class.&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Reptile&lt;/span&gt;
+	&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;eat&lt;/span&gt;
+		&lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;“&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Nom&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;nom&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;&lt;/span&gt;
+&lt;span class=&quot;s2&quot;&gt;	end&lt;/span&gt;
+&lt;span class=&quot;s2&quot;&gt;end&lt;/span&gt;
+
+&lt;span class=&quot;s2&quot;&gt;class Iguana &amp;lt; Reptile&lt;/span&gt;
+&lt;span class=&quot;s2&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;s2&quot;&gt;In this example, the Iguana class inherits the methods of the Reptile class, which means that we can call the eat method on an instance of the Iguana class.&lt;/span&gt;
+
+&lt;span class=&quot;s2&quot;&gt;robby = Iguana.new&lt;/span&gt;
+&lt;span class=&quot;s2&quot;&gt;robby.eat&lt;/span&gt;
+&lt;span class=&quot;s2&quot;&gt;# =&amp;gt; “Nom nom”&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;One problem with inheritance is that changing any method in the parent class will have important repercussions on all classes that inherit from it. An alternative to inheritance is composition.&lt;/p&gt;
+
+&lt;p&gt;With composition, you still have two different classes but the relationship between them doesn’t have to be so top-down. Whereas inheritance can be summarized by an is-a relationship (Iguana is a Reptile), composition is comparable to a has-a relationship. Here’s what composition would look like with our Reptile and Iguana classes.&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Reptile&lt;/span&gt;
+	&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;eat&lt;/span&gt;
+		&lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;“&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Nom&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;nom&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;&lt;/span&gt;
+&lt;span class=&quot;s2&quot;&gt;	end&lt;/span&gt;
+&lt;span class=&quot;s2&quot;&gt;end&lt;/span&gt;
+
+&lt;span class=&quot;s2&quot;&gt;class Iguana&lt;/span&gt;
+&lt;span class=&quot;s2&quot;&gt;	attr_accessor :instance&lt;/span&gt;
+
+&lt;span class=&quot;s2&quot;&gt;	def initialize&lt;/span&gt;
+&lt;span class=&quot;s2&quot;&gt;		@instance = Reptile.new&lt;/span&gt;
+&lt;span class=&quot;s2&quot;&gt;	end&lt;/span&gt;
+&lt;span class=&quot;s2&quot;&gt;end&lt;/span&gt;
+
+&lt;span class=&quot;s2&quot;&gt;robby = Iguana.new&lt;/span&gt;
+&lt;span class=&quot;s2&quot;&gt;robby.instance.eat&lt;/span&gt;
+&lt;span class=&quot;s2&quot;&gt;# =&amp;gt; &amp;quot;&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Nom&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;nom&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;In this example, composition has required the addition of several lines of code inside the Iguana class, but composition has its benefits. It’s less likely to cause undefined method errors when the parent class is changed. This is because the child class simply initializes an instance of the parent class with whatever methods the parent class currently contains. Composition also allows for the relationship to be reversed; if necessary, we could have the Reptile class use methods contained in the Iguana class by initializing an instance of Iguana inside the Reptile class.&lt;/p&gt;
+
+&lt;p&gt;It seems that, in general, programmers advocate using composition over inheritance because of the increased flexibility, but, as always, it is a personal choice and sometimes inheritance may simply make more sense than composition. Following any rule indiscriminately is never a good idea.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 12 Sep 2014 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000//technical%20inheritance%20composition/2014/09/12/inheritance-vs-composition.html</link>
+        <guid isPermaLink="true">http://localhost:4000//technical%20inheritance%20composition/2014/09/12/inheritance-vs-composition.html</guid>
+        
+        
+        <category>technical inheritance composition</category>
+        
+      </item>
+    
+      <item>
+        <title>Pairing and Feedback</title>
+        <description>&lt;p&gt;Dev Bootcamp focuses a lot on pair programming and exchanging feedback. Every week throughout Phase 0 of the program we are expected to pair at least twice with others in our cohort.&lt;/p&gt;
+
+&lt;p&gt;As a result, I’ve learned a lot about working with people. Up until now I’ve usually worked alone on personal projects and school assignments. I like working alone because of the control I have over the final product and because of the flexibility that comes with not having to coordinate schedules with someone.&lt;/p&gt;
+
+&lt;p&gt;But pair programming has so far been mostly a positive experience. Many times I’ve learned new tricks and methods while pairing. Many times pairing is the fastest way to overcome a roadblock in a challenge.&lt;/p&gt;
+
+&lt;p&gt;On the other hand, there have been times while pairing that I was silently hoping to finish up a challenge alone. I think it’s natural that we get along and work well with some people, but just don’t “click” with others. That’s why giving feedback is important. It forces you to identify what it was that was bothering you in the pairing session and express it kindly in your feedback.&lt;/p&gt;
+
+&lt;p&gt;I’ve learned that I work best with a pair who is engaged with the challenge and has her own ideas about how to tackle it. I’d rather work with someone who is pushy than apathetic. At least if my pair is pushy, I can push back and we can have a productive discussion regarding the best route to take.&lt;/p&gt;
+
+&lt;p&gt;I’ve learned that people also work at different paces. Some of us like to power through and get to the solution quickly, and some of us like to think things through and create more slick and elegant solutions. When you’re in a hurry to complete something, working with someone who likes to take their time can be frustrating. The inverse is also true.&lt;/p&gt;
+
+&lt;p&gt;Giving and receiving feedback has been a learning experience as well. While giving feedback I try to be honest and not pretend that something that was bothering me wasn’t bothering me. I do so because I hope that others will also give me their honest feedback as well. Looking at feedback from others, I sometimes think that it is a bit too diplomatic and it could benefit from some more directness.&lt;/p&gt;
+
+&lt;p&gt;Overall, I think pairing and doing feedback has been just as much of a learning experience as the actual coding itself. I’ve learned that I need to articulate more of what I’m doing/thinking, and I’m thankful for that feedback.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 07 Sep 2014 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000//cultural%20pairing%20feedback/2014/09/07/pairing-and-feedback.html</link>
+        <guid isPermaLink="true">http://localhost:4000//cultural%20pairing%20feedback/2014/09/07/pairing-and-feedback.html</guid>
+        
+        
+        <category>cultural pairing feedback</category>
+        
+      </item>
+    
+      <item>
+        <title>Why Uses Classes</title>
+        <description>&lt;p&gt;The most popular programming languages nowadays are object oriented programming (OOP) languages. What characterizes OOP is the focus on organizing code into objects that, in a way, represent real world objects. For example, we could have a class called Player and create player “objects” that would be instances of the Player’s class.&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Player&lt;/span&gt;
+	&lt;span class=&quot;vc&quot;&gt;@@count&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;
+
+	&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;initialize&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;species&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;stamina&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+		&lt;span class=&quot;vc&quot;&gt;@@count&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;
+		&lt;span class=&quot;vi&quot;&gt;@species&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;species&lt;/span&gt;
+		&lt;span class=&quot;vi&quot;&gt;@stamina&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;stamina&lt;/span&gt;
+	&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+	&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;eat&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;food_item&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+		&lt;span class=&quot;n&quot;&gt;stamina&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;food_item&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;nutrition&lt;/span&gt;
+		&lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;“&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Mmmm&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;yummy&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;”&lt;/span&gt;
+	&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+
+&lt;span class=&quot;n&quot;&gt;joJo&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Player&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;new&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;“&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;human&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;”&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;70&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;qiQi&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Player&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;new&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;“&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;alien&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;”&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;90&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;What this type of organization allows us to do is to easily add new players with unique attributes and also make universal changes to the properties of all individual players at once.&lt;/p&gt;
+
+&lt;p&gt;Classes represent the general category that includes all the different objects that belong to that category. If you like Plato, classes are like the Platonic forms from which all the particulars derive their attributes.&lt;/p&gt;
+
+&lt;p&gt;All objects in OOP are instances of some class and inherit the features of that class. In our example, any new player is going to inherit species and stamina attributes from the Player class.&lt;/p&gt;
+
+&lt;p&gt;Another major benefit of using classes is encapsulation. Encapsulation means that variables and methods defined within an object or a class are self-contained and do not interfere with any variables and methods that have been defined elsewhere in the program. Classes make sharing and borrowing code much easier. Sites like www.phpclasses.org require uploading code as classes so that the borrowed code doesn’t affect the rest of the code in a project when you try to incorporate it.&lt;/p&gt;
+
+&lt;p&gt;Finally, when people write about the benefits of OOP, they usually mention polymorphism. I understand polymorphism as a quality of code that makes it usable across different types of objects. I know that sounds quite nebulous, so I’ll try to illustrate with an example.&lt;/p&gt;
+
+&lt;p&gt;In my earlier example, I could call the eat method on any instance of the Player class. Now, I want to also have animals in my game which will, like players, also have the ability to eat, but they won’t be able to articulate their pleasure derived from eating by saying “Mmmm, yummy.” The solution? I can make another class called Animal and write an eat method that will increase stamina without the remarks. The ability to call the eat method on instances of both the Animal and Player class and have each produce a different but appropriate effect is what is called polymorphism.&lt;/p&gt;
+
+&lt;p&gt;So if you intend to share your code with the community, to incorporate others’ code from online, or even just to have nicely organized and compartmentalized code I recommend using classes.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 06 Sep 2014 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000//technical%20classes/2014/09/06/why-uses-classes.html</link>
+        <guid isPermaLink="true">http://localhost:4000//technical%20classes/2014/09/06/why-uses-classes.html</guid>
+        
+        
+        <category>technical classes</category>
+        
+      </item>
+    
+      <item>
+        <title>The Education Problem</title>
+        <description>&lt;p&gt;This past Thursday, I went to an open house at Dev Bootcamp to hear Griffin Caprio speak about “Why our industry sucks and we need you to fix it!” Griffin has worked in the industry for about 20 years in a variety of different positions and companies and is probably best qualified to identify the most concerning trends in the tech industry.&lt;/p&gt;
+
+&lt;p&gt;Griffin touched on a variety of different issues, such as special treatment breeding laziness and diversity. But one of the most interesting issues he brought up I think was the education problem.&lt;/p&gt;
+
+&lt;p&gt;Nearly everyone who works in the industry had to learn from experience. There is no clear path for people who want to be programmers or software engineers. You have to be a very self-motivated person to learn many things on your own and get a job in which you will likely still feel as if you know nothing.&lt;/p&gt;
+
+&lt;p&gt;Because of this, every generation of programmers starts from the bottom in a sense. The industry as a whole would probably improve more quickly if there were a way to teach newcomers what it took the veterans many years to learn.&lt;/p&gt;
+
+&lt;p&gt;Dev Bootcamp and other similar programming bootcamps seem to be the first institutions trying to address these issues. As Griffin mentioned, even a computer science degree doesn’t really prepare you for work in the industry. There’s more of a focus on academic pursuits that are simply not that practical for most of the jobs that currently exist.&lt;/p&gt;
+
+&lt;p&gt;I think Dev Bootcamp is an important step towards creating paths into the tech industry, but that it would be nice to start earlier. Microsoft pays employees to take time off to teach tech to kids in school, but it’d be great if more companies took such an approach. In fact, everything from elementary school to higher education could use some restructuring. Instead of having school be primarily lecture based and centered around memorizing information, kids should be thought to think critically, and to engage in dialogue. These are the kinds of skills that are necessary for success in the information age.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 31 Aug 2014 09:57:41 -0500</pubDate>
+        <link>http://localhost:4000//cultural/education/dbc/2014/08/31/education-problem.html</link>
+        <guid isPermaLink="true">http://localhost:4000//cultural/education/dbc/2014/08/31/education-problem.html</guid>
+        
+        
+        <category>cultural</category>
+        
+        <category>education</category>
+        
+        <category>dbc</category>
+        
+      </item>
+    
+  </channel>
+</rss>
