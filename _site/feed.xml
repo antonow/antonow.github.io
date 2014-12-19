@@ -3,10 +3,10 @@
   <channel>
     <title>antonow.github.io</title>
     <description></description>
-    <link>http://localhost:4000//</link>
-    <atom:link href="http://localhost:4000//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 18 Dec 2014 22:08:23 -0600</pubDate>
-    <lastBuildDate>Thu, 18 Dec 2014 22:08:23 -0600</lastBuildDate>
+    <link>http://antonow.github.io//</link>
+    <atom:link href="http://antonow.github.io//feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Thu, 18 Dec 2014 22:12:04 -0600</pubDate>
+    <lastBuildDate>Thu, 18 Dec 2014 22:12:04 -0600</lastBuildDate>
     <generator>Jekyll v2.5.2</generator>
     
       <item>
@@ -34,8 +34,8 @@
 &lt;/ol&gt;
 </description>
         <pubDate>Sun, 05 Oct 2014 00:00:00 -0500</pubDate>
-        <link>http://localhost:4000//cultural%20questions/2014/10/05/asking-the-right-questions.html</link>
-        <guid isPermaLink="true">http://localhost:4000//cultural%20questions/2014/10/05/asking-the-right-questions.html</guid>
+        <link>http://antonow.github.io//cultural%20questions/2014/10/05/asking-the-right-questions.html</link>
+        <guid isPermaLink="true">http://antonow.github.io//cultural%20questions/2014/10/05/asking-the-right-questions.html</guid>
         
         
         <category>cultural questions</category>
@@ -51,8 +51,8 @@
 &lt;p&gt;I waited until my anger had entirely subsided and finally told him. On the one hand, the waiting helped ensure that I wouldn’t create an angry outburst. But, if I could go back, I would have confronted him earlier. I learned that holding onto anger only hurts one’s self and doesn’t do anything for the other person.&lt;/p&gt;
 </description>
         <pubDate>Sun, 28 Sep 2014 00:00:00 -0500</pubDate>
-        <link>http://localhost:4000//cultural%20conflict/2014/09/28/dealing.html</link>
-        <guid isPermaLink="true">http://localhost:4000//cultural%20conflict/2014/09/28/dealing.html</guid>
+        <link>http://antonow.github.io//cultural%20conflict/2014/09/28/dealing.html</link>
+        <guid isPermaLink="true">http://antonow.github.io//cultural%20conflict/2014/09/28/dealing.html</guid>
         
         
         <category>cultural conflict</category>
@@ -116,8 +116,8 @@
 &lt;p&gt;Another algorithm that has a comparable efficiency to merge sort is quick sort. In quick sort, you pick any number as the “pivot” number and compare it to each other number in the list. The numbers get moved to the right or left depending on whether they are higher or lower than the pivot. At the end of one of these iterations, the pivot number is guaranteed to be in its correct final position.&lt;/p&gt;
 </description>
         <pubDate>Sun, 28 Sep 2014 00:00:00 -0500</pubDate>
-        <link>http://localhost:4000//technical%20algorithms/2014/09/28/3-sorting-algorithms-bubble-quick-and-merge.html</link>
-        <guid isPermaLink="true">http://localhost:4000//technical%20algorithms/2014/09/28/3-sorting-algorithms-bubble-quick-and-merge.html</guid>
+        <link>http://antonow.github.io//technical%20algorithms/2014/09/28/3-sorting-algorithms-bubble-quick-and-merge.html</link>
+        <guid isPermaLink="true">http://antonow.github.io//technical%20algorithms/2014/09/28/3-sorting-algorithms-bubble-quick-and-merge.html</guid>
         
         
         <category>technical algorithms</category>
@@ -154,8 +154,8 @@
 &lt;p&gt;*At the time of writing, TSLA is at $259.32.&lt;/p&gt;
 </description>
         <pubDate>Sun, 21 Sep 2014 00:00:00 -0500</pubDate>
-        <link>http://localhost:4000//cultural%20values/2014/09/21/the-value-finder.html</link>
-        <guid isPermaLink="true">http://localhost:4000//cultural%20values/2014/09/21/the-value-finder.html</guid>
+        <link>http://antonow.github.io//cultural%20values/2014/09/21/the-value-finder.html</link>
+        <guid isPermaLink="true">http://antonow.github.io//cultural%20values/2014/09/21/the-value-finder.html</guid>
         
         
         <category>cultural values</category>
@@ -183,8 +183,8 @@
 &lt;p&gt;So what’s the only way to prevent SQL injection attacks? Never directly pass in a user’s input to an SQL query. Always make sure that if you are going to use a user’s input in a query that the input does not contain any potentially dangerous code.&lt;/p&gt;
 </description>
         <pubDate>Sat, 20 Sep 2014 00:00:00 -0500</pubDate>
-        <link>http://localhost:4000//technical%20sql%20injection/2014/09/20/what-are-sql-injection-attacks.html</link>
-        <guid isPermaLink="true">http://localhost:4000//technical%20sql%20injection/2014/09/20/what-are-sql-injection-attacks.html</guid>
+        <link>http://antonow.github.io//technical%20sql%20injection/2014/09/20/what-are-sql-injection-attacks.html</link>
+        <guid isPermaLink="true">http://antonow.github.io//technical%20sql%20injection/2014/09/20/what-are-sql-injection-attacks.html</guid>
         
         
         <category>technical sql injection</category>
@@ -204,8 +204,8 @@
 &lt;p&gt;If we want to bring about change, we need to start with our own microcosms. For me at Dev Bootcamp, this means helping foster a welcoming and cooperative environment. In terms of giving feedback, it means maybe adding a disclaimer to constructive criticism. “I know it may seem that I’m being somewhat critical here, but please understand that I’m critical with everyone because I want to help everyone improve.”&lt;/p&gt;
 </description>
         <pubDate>Sat, 13 Sep 2014 00:00:00 -0500</pubDate>
-        <link>http://localhost:4000//cultural%20stereotype/2014/09/13/talking-about-stereotype-threat.html</link>
-        <guid isPermaLink="true">http://localhost:4000//cultural%20stereotype/2014/09/13/talking-about-stereotype-threat.html</guid>
+        <link>http://antonow.github.io//cultural%20stereotype/2014/09/13/talking-about-stereotype-threat.html</link>
+        <guid isPermaLink="true">http://antonow.github.io//cultural%20stereotype/2014/09/13/talking-about-stereotype-threat.html</guid>
         
         
         <category>cultural stereotype</category>
@@ -261,8 +261,8 @@
 &lt;p&gt;It seems that, in general, programmers advocate using composition over inheritance because of the increased flexibility, but, as always, it is a personal choice and sometimes inheritance may simply make more sense than composition. Following any rule indiscriminately is never a good idea.&lt;/p&gt;
 </description>
         <pubDate>Fri, 12 Sep 2014 00:00:00 -0500</pubDate>
-        <link>http://localhost:4000//technical%20inheritance%20composition/2014/09/12/inheritance-vs-composition.html</link>
-        <guid isPermaLink="true">http://localhost:4000//technical%20inheritance%20composition/2014/09/12/inheritance-vs-composition.html</guid>
+        <link>http://antonow.github.io//technical%20inheritance%20composition/2014/09/12/inheritance-vs-composition.html</link>
+        <guid isPermaLink="true">http://antonow.github.io//technical%20inheritance%20composition/2014/09/12/inheritance-vs-composition.html</guid>
         
         
         <category>technical inheritance composition</category>
@@ -288,8 +288,8 @@
 &lt;p&gt;Overall, I think pairing and doing feedback has been just as much of a learning experience as the actual coding itself. I’ve learned that I need to articulate more of what I’m doing/thinking, and I’m thankful for that feedback.&lt;/p&gt;
 </description>
         <pubDate>Sun, 07 Sep 2014 00:00:00 -0500</pubDate>
-        <link>http://localhost:4000//cultural%20pairing%20feedback/2014/09/07/pairing-and-feedback.html</link>
-        <guid isPermaLink="true">http://localhost:4000//cultural%20pairing%20feedback/2014/09/07/pairing-and-feedback.html</guid>
+        <link>http://antonow.github.io//cultural%20pairing%20feedback/2014/09/07/pairing-and-feedback.html</link>
+        <guid isPermaLink="true">http://antonow.github.io//cultural%20pairing%20feedback/2014/09/07/pairing-and-feedback.html</guid>
         
         
         <category>cultural pairing feedback</category>
@@ -332,8 +332,8 @@
 &lt;p&gt;So if you intend to share your code with the community, to incorporate others’ code from online, or even just to have nicely organized and compartmentalized code I recommend using classes.&lt;/p&gt;
 </description>
         <pubDate>Sat, 06 Sep 2014 00:00:00 -0500</pubDate>
-        <link>http://localhost:4000//technical%20classes/2014/09/06/why-uses-classes.html</link>
-        <guid isPermaLink="true">http://localhost:4000//technical%20classes/2014/09/06/why-uses-classes.html</guid>
+        <link>http://antonow.github.io//technical%20classes/2014/09/06/why-uses-classes.html</link>
+        <guid isPermaLink="true">http://antonow.github.io//technical%20classes/2014/09/06/why-uses-classes.html</guid>
         
         
         <category>technical classes</category>
@@ -355,8 +355,8 @@
 &lt;p&gt;I think Dev Bootcamp is an important step towards creating paths into the tech industry, but that it would be nice to start earlier. Microsoft pays employees to take time off to teach tech to kids in school, but it’d be great if more companies took such an approach. In fact, everything from elementary school to higher education could use some restructuring. Instead of having school be primarily lecture based and centered around memorizing information, kids should be thought to think critically, and to engage in dialogue. These are the kinds of skills that are necessary for success in the information age.&lt;/p&gt;
 </description>
         <pubDate>Sun, 31 Aug 2014 09:57:41 -0500</pubDate>
-        <link>http://localhost:4000//cultural/education/dbc/2014/08/31/education-problem.html</link>
-        <guid isPermaLink="true">http://localhost:4000//cultural/education/dbc/2014/08/31/education-problem.html</guid>
+        <link>http://antonow.github.io//cultural/education/dbc/2014/08/31/education-problem.html</link>
+        <guid isPermaLink="true">http://antonow.github.io//cultural/education/dbc/2014/08/31/education-problem.html</guid>
         
         
         <category>cultural</category>
