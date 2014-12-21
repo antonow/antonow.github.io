@@ -2,7 +2,7 @@
 layout: post
 title:  "Comparing Websites"
 date:   2014-08-10 14:57:41
-categories: technical content design
+categories: technical
 ---
 Websites can stand out for a number of reasons. Perhaps the website is very user-friendly and easy to navigate. Another website may be more cluttered, but makes up for this with great content. Some websites have been around for a long time and people have come to trust them to deliver a good experience.
 

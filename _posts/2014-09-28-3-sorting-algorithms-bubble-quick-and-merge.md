@@ -2,7 +2,7 @@
 layout: post
 title: "3 Sorting Algorithms (Bubble, Quick, and Merge)"
 description: ""
-category: technical algorithms
+category: technical
 ---
 
 What is an algorithm? It is any set of instructions that a computer (or person) follows in order to achieve a desired solution.

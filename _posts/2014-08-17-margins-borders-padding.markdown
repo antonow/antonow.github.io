@@ -2,7 +2,7 @@
 layout: post
 title:  "Margins, Borders, and Padding"
 date:   2014-08-17 14:57:41
-categories: technical CSS
+categories: technical
 ---
 
 Margins, borders, and paddings are properties of every CSS element. It's easy to remember their functions if you keep in mind the box model.

@@ -2,7 +2,7 @@
 layout: post
 title:  "How did JavaScript become so popular?"
 date:   2014-08-24 14:57:41
-categories: technical javascript
+categories: technical
 ---
 
 JavaScript has its beginning with the Netscape Navigator browser. Back then the web was composed of mostly static websites, and Netscape wanted to make Java applets easier for designers to incorporate into websites.
@@ -15,4 +15,4 @@ Not surprisingly, other companies came up with their own versions of JavaScript 
 
 Since then, JavaScript has seen many improvements and increased functionality. The great thing about JavaScript are that it allows for creating dynamic webpages without much difficulty once you know the basics. It is also compatible with all major browsers without many discrepancies in performance between browsers; this is because there have been significant initiatives to standardize JavaScript, such as by ECMA in 1996-1997.
 
-Still, JavaScript has some limitations. JavaScript code on a website is publicly viewable which means it is difficult to maintain of your intellectual property. It also doesn't have very elucidating error messages and will let you get away with many unintended things without giving an error. But JavaScript is clearly here to stay, and it continues to be an indispensible language for web designers nearly 20 years after its creation.
+Still, JavaScript has some limitations. JavaScript code on a website is publicly viewable which means it is difficult to maintain of your intellectual property. It also doesn't have very elucidating error messages and will let you get away with many unintended things without giving an error. But JavaScript is clearly here to stay, and it continues to be an indispensible language for web developers nearly 20 years after its creation.

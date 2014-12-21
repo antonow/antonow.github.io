@@ -6,11 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width initial-scale=1">
 
-  <title>antonow.github.io</title>
-  <meta name="description" content="Where I write about things code related">
+  <title>Margins, Borders, and Padding</title>
+  <meta name="description" content="Margins, borders, and paddings are properties of every CSS element. It’s easy to remember their functions if you keep in mind the box model.">
 
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="http://antonow.github.io/">
+  <link rel="canonical" href="http://antonow.github.io/technical/2014/08/17/margins-borders-padding.html">
   <link rel="alternate" type="application/atom+xml" title="antonow.github.io" href="http://antonow.github.io/feed.xml" />
 </head>
 
@@ -54,135 +54,51 @@
 
     <div class="page-content">
       <div class="wrapper">
-        <div class="home">
+        <div class="post">
 
-  <h1 class="page-heading">Posts</h1>
+  <header class="post-header">
+    <h1 class="post-title">Margins, Borders, and Padding</h1>
+    <p class="post-meta">Aug 17, 2014</p>
+  </header>
 
-  <ul class="post-list">
-    
-      <li>
-        <span class="post-meta">Oct 5, 2014</span>
+  <article class="post-content">
+    <p>Margins, borders, and paddings are properties of every CSS element. It’s easy to remember their functions if you keep in mind the box model.</p>
 
-        <h2>
-          <a class="post-link" href="/cultural/2014/10/05/asking-the-right-questions.html">Asking the Right Questions</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Sep 28, 2014</span>
+<p><img src="http://antonow.github.io/assets/box-model.gif" alt="CSS Box Model" /></p>
 
-        <h2>
-          <a class="post-link" href="/cultural/2014/09/28/dealing.html">Dealing with Conflict</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Sep 28, 2014</span>
+<p>As you can see in the image, the content is at the innermost center of the element. If we do not add some padding, the content will fill the entire space of the element. If our content is an image, this might be desirable. With text however, it usually looks nicer to add a little padding to keep the text from being right up against the sides of the element. Padding is transparent, which means it cannot be assigned a color.</p>
 
-        <h2>
-          <a class="post-link" href="/technical/2014/09/28/3-sorting-algorithms-bubble-quick-and-merge.html">3 Sorting Algorithms (Bubble, Quick, and Merge)</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Sep 21, 2014</span>
+<p>This is how we would add padding to an element with CSS:</p>
 
-        <h2>
-          <a class="post-link" href="/cultural/2014/09/21/the-value-finder.html">The Value Finder</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Sep 20, 2014</span>
+<div class="highlight"><pre><code class="language-css" data-lang="css"><span class="nt">div</span> <span class="p">{</span>
+     <span class="k">padding</span><span class="o">:</span> <span class="m">10px</span><span class="p">;</span>
+<span class="p">}</span></code></pre></div>
 
-        <h2>
-          <a class="post-link" href="/technical/2014/09/20/what-are-sql-injection-attacks.html">What are SQL Injection Attacks?</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Sep 13, 2014</span>
+<p>This will add 10 pixels of space between the content and each side of the element. If you need to assign different amounts of space for different sides, put four numbers instead of just one. The first number will designate the amount of padding from the top side; the second number is for the right side; the third is for the bottom; and the fourth is for the left.</p>
 
-        <h2>
-          <a class="post-link" href="/cultural/2014/09/13/talking-about-stereotype-threat.html">Talking About Stereotype Threat</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Sep 12, 2014</span>
+<div class="highlight"><pre><code class="language-css" data-lang="css"><span class="nt">div</span> <span class="p">{</span>
+     <span class="k">padding</span><span class="o">:</span> <span class="m">10px</span> <span class="m">20px</span> <span class="m">15px</span> <span class="m">20px</span><span class="p">;</span>
+<span class="p">}</span></code></pre></div>
 
-        <h2>
-          <a class="post-link" href="/technical/2014/09/12/inheritance-vs-composition.html">Inheritance vs. Composition</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Sep 7, 2014</span>
+<p>Borders go around the outside of the element. Unlike padding and margins, borders are visible when viewing the webpage. This is how we would add a border to an element with CSS:</p>
 
-        <h2>
-          <a class="post-link" href="/cultural/2014/09/07/pairing-and-feedback.html">Pairing and Feedback</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Sep 6, 2014</span>
+<div class="highlight"><pre><code class="language-css" data-lang="css"><span class="nt">div</span> <span class="p">{</span>
+     <span class="k">border</span><span class="o">:</span> <span class="m">1px</span> <span class="k">solid</span> <span class="m">#000000</span><span class="p">;</span>
+<span class="p">}</span></code></pre></div>
 
-        <h2>
-          <a class="post-link" href="/technical/2014/09/06/why-uses-classes.html">Why Uses Classes</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Aug 31, 2014</span>
+<p>The first property specifies the width of the border (here 1 pixel). The second property specifies the level of transparency. The third property specifies the color of the border. If no color is specified, the border will inherit the color from the color property of the element.</p>
 
-        <h2>
-          <a class="post-link" href="/cultural/2014/08/31/education-problem.html">The Education Problem</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Aug 30, 2014</span>
+<p>Margins compose the outermost layer in the box model. They go outside even the borders. Let’s say we want an element to keep a little space between itself and the surrounding elements. Adding margins would be the best solution to this. Margins are transparent and act like padding that is on the outside of the element. Here’s how we would add margins to an element with CSS:</p>
 
-        <h2>
-          <a class="post-link" href="/technical/2014/08/30/hashes-in-ruby.html">When to Use Hashes in Ruby</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Aug 24, 2014</span>
+<div class="highlight"><pre><code class="language-css" data-lang="css"><span class="nt">div</span> <span class="p">{</span>
+     <span class="k">margin</span><span class="o">:</span> <span class="m">10px</span> <span class="m">20px</span> <span class="m">15px</span> <span class="m">20px</span><span class="p">;</span>
+<span class="p">}</span></code></pre></div>
 
-        <h2>
-          <a class="post-link" href="/cultural/2014/08/24/learning-styles-fixed-growth-mindset.html">Learning Styles and Fixed vs. Growth Mindset</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Aug 24, 2014</span>
+<p>As with our first example using padding, we could put only one number if we want even margins all around the object. We can also use two or three numbers depending on what we are trying to accomplish.</p>
 
-        <h2>
-          <a class="post-link" href="/technical/2014/08/24/how-did-javascript-become-so-popular.html">How did JavaScript become so popular?</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Aug 17, 2014</span>
+<p>These are the basics of margins, borders, and padding. We can get more fancy using different border styles like dotted, dashed, double, or groove. Or we can specify particular margins or padding using margin-top or padding-right. But this is beyond the scope of this post. I hope this introduction was helpful! (image from www.w3schools.com)</p>
 
-        <h2>
-          <a class="post-link" href="/technical/2014/08/17/margins-borders-padding.html">Margins, Borders, and Padding</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Aug 10, 2014</span>
-
-        <h2>
-          <a class="post-link" href="/technical/2014/08/10/comparing-websites.html">Comparing Websites</a>
-        </h2>
-      </li>
-    
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="/feed.xml">via RSS</a></p>
+  </article>
 
 </div>
 

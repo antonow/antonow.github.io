@@ -2,7 +2,7 @@
 layout: post
 title:  "When to Use Hashes in Ruby"
 date:   2014-08-30 14:57:41
-categories: technical Ruby hash
+categories: technical
 ---
 
 Hashes are like arrays in that they are lists of elements, but with a bit more complexity. Each item in a hash has two parts - the key (or index) and the value. This is an example of an array and a hash:
