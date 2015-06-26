@@ -5,57 +5,22 @@
     <description>Where I write about things code related</description>
     <link>http://antonow.github.io/</link>
     <atom:link href="http://antonow.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 20 Dec 2014 21:19:58 -0600</pubDate>
-    <lastBuildDate>Sat, 20 Dec 2014 21:19:58 -0600</lastBuildDate>
+    <pubDate>Thu, 25 Jun 2015 20:24:14 -0500</pubDate>
+    <lastBuildDate>Thu, 25 Jun 2015 20:24:14 -0500</lastBuildDate>
     <generator>Jekyll v2.5.2</generator>
     
       <item>
-        <title>Asking the Right Questions</title>
-        <description>&lt;p&gt;What are questions? They are an articulation of something we don’t know, and, simultaneously, a request for assistance in finding an answer.&lt;/p&gt;
+        <title>A Quick Update</title>
+        <description>&lt;p&gt;A lot has happened since I last posted. I started the blog in Phase 0 of Dev Bootcamp and stopped writing when I began Phase 1, primarily because there was little time as the program ramped up. I feel like I’ve learned a great deal from the experience, and I was able to find my first tech-related job as a web developer at L2T Media within 3 months. It’s a good entry level position where I get to learn some system administration and improve my web development skills.&lt;/p&gt;
 
-&lt;p&gt;Good questions target that which the asker knows that they do not know. There is a certain humility involved in asking good questions. You say, “This part I understand, but this, to me, is still confusing.”&lt;/p&gt;
-
-&lt;p&gt;Bad questions betray to the listener the asker’s ignorance of their own ignorance. I remember attending a lecture about the differences between transcendental and hermeneutic approaches to phenomenology, which went completely over my head. Another student asked a totally incoherent question (regarding something about Jim Morrison and acid) that had nothing to do with anything that had been said.&lt;/p&gt;
-
-&lt;p&gt;Bad questions are vague, confusingly put, and, at worst, completely incoherent. Good questions are the opposite. They demonstrate to the listener that the asker has studied the problem, isolated an impasse in their understanding, and articulated exactly what that is. Many times, in the process of narrowing down a question to formulate a good one, the question answers itself!&lt;/p&gt;
-
-&lt;p&gt;I’ll end with several suggestions for formulating good questions.&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;
-    &lt;p&gt;Do research first! Don’t waste people’s time asking questions that you can easily answer yourself.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Be specific.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Be humble. Be honest about what you don’t know. Don’t pretend to know more than you do because you might get a highly technical answer that presumes you already know the fundamentals.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
+&lt;p&gt;I’ve also been building some sites for friends and family on the side. This is the new website I designed for &lt;a href=&quot;http://leaderbuilders.com/&quot;&gt;Leader Builders Corp&lt;/a&gt; and this is a template-based website I put together for &lt;a href=&quot;http://www.groupt.me/&quot;&gt;Groupt&lt;/a&gt; (running on Sinatra). The website I’m most proud of continues to be my final project from Dev Bootcamp called &lt;a href=&quot;http://www.beliefmapper.com/&quot;&gt;Belief Mapper&lt;/a&gt; (built with Ruby on Rails in 8 days with a team of 4). It’s a sort of evolution from the &lt;a href=&quot;/cultural/2014/09/21/the-value-finder.html&quot;&gt;value-finder&lt;/a&gt; that I wrote back in Phase 0.&lt;/p&gt;
 </description>
-        <pubDate>Sun, 05 Oct 2014 00:00:00 -0500</pubDate>
-        <link>http://antonow.github.io/cultural/2014/10/05/asking-the-right-questions.html</link>
-        <guid isPermaLink="true">http://antonow.github.io/cultural/2014/10/05/asking-the-right-questions.html</guid>
+        <pubDate>Thu, 25 Jun 2015 00:00:00 -0500</pubDate>
+        <link>http://antonow.github.io/update/2015/06/25/a-quick-update.html</link>
+        <guid isPermaLink="true">http://antonow.github.io/update/2015/06/25/a-quick-update.html</guid>
         
         
-        <category>cultural</category>
-        
-      </item>
-    
-      <item>
-        <title>Dealing with Conflict</title>
-        <description>&lt;p&gt;This week, the topic I am supposed to write about is an emotional conflict that I’ve had with someone. I usually avoid conflict at all costs, so I don’t have a very exciting story to tell. But I did have a friend recently release a secret of mine that could’ve had disastrous consequences.&lt;/p&gt;
-
-&lt;p&gt;Fortunately, the possible misfortune that it could have caused was avoided, and so I found myself able to eventually forgive him. But, for a while, I never brought up how he had wronged me and so harbored a little anger whenever I saw him.&lt;/p&gt;
-
-&lt;p&gt;I waited until my anger had entirely subsided and finally told him. On the one hand, the waiting helped ensure that I wouldn’t create an angry outburst. But, if I could go back, I would have confronted him earlier. I learned that holding onto anger only hurts one’s self and doesn’t do anything for the other person.&lt;/p&gt;
-</description>
-        <pubDate>Sun, 28 Sep 2014 00:00:00 -0500</pubDate>
-        <link>http://antonow.github.io/cultural/2014/09/28/dealing.html</link>
-        <guid isPermaLink="true">http://antonow.github.io/cultural/2014/09/28/dealing.html</guid>
-        
-        
-        <category>cultural</category>
+        <category>update</category>
         
       </item>
     
@@ -152,6 +117,10 @@
 &lt;p&gt;Thinking about and ranking my values has been a helpful exercise. It helps me clarify what I stand for. I’m thinking of making this little application available online, but, at the moment, I don’t know how to do that.&lt;/p&gt;
 
 &lt;p&gt;*At the time of writing, TSLA is at $259.32.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;strong&gt;6/25/15&lt;/strong&gt; This project inspired my Dev Bootcamp final project called &lt;a href=&quot;http://www.beliefmapper.com/&quot;&gt;Belief Mapper&lt;/a&gt;.&lt;/p&gt;
 </description>
         <pubDate>Sun, 21 Sep 2014 00:00:00 -0500</pubDate>
         <link>http://antonow.github.io/cultural/2014/09/21/the-value-finder.html</link>
@@ -188,25 +157,6 @@
         
         
         <category>technical</category>
-        
-      </item>
-    
-      <item>
-        <title>Talking About Stereotype Threat</title>
-        <description>&lt;p&gt;Social psychologist Claude M. Steele has for many years been studying the underperformance of minority students. He has coined the term stereotype threat to help explain why minority university students tend to underperform in comparison to white students - even when their standardized test scores for admissions were equivalent.&lt;/p&gt;
-
-&lt;p&gt;Stereotype threat refers to an anxiety that comes from a fear of being judged and of reinforcing negative racial stereotypes by doing poorly on an exam. This anxiety, whether conscious or not, increases the pressure to perform and reduces the ability to focus.&lt;/p&gt;
-
-&lt;p&gt;Surprisingly, in studies, something as small as a statement that the test-to-be-administered is “racially fair” or is not going to be used as an assessment of intellectual capacity was often successful in equalizing test scores.&lt;/p&gt;
-
-&lt;p&gt;How can knowledge about this problem be applied? Trust is an important factor. When people trust that their performance will not be assessed in the context of race, anxiety from stereotype threat and underperformance tend to disappear.&lt;/p&gt;
-</description>
-        <pubDate>Sat, 13 Sep 2014 00:00:00 -0500</pubDate>
-        <link>http://antonow.github.io/cultural/2014/09/13/talking-about-stereotype-threat.html</link>
-        <guid isPermaLink="true">http://antonow.github.io/cultural/2014/09/13/talking-about-stereotype-threat.html</guid>
-        
-        
-        <category>cultural</category>
         
       </item>
     
@@ -280,7 +230,7 @@
 
 &lt;p&gt;I’ve learned that I work best with a pair who is engaged with the challenge and has her own ideas about how to tackle it. I’d rather work with someone who is pushy than apathetic. At least if my pair is pushy, I can push back and we can have a productive discussion regarding the best route to take.&lt;/p&gt;
 
-&lt;p&gt;I’ve learned that people also work at different paces. Some people like to power through and get to the solution quickly, and some like to think things through and come up with more elegant solutions. When you’re in a hurry to complete something, working with someone who likes to take their time can be frustrating. The inverse is also true.&lt;/p&gt;
+&lt;p&gt;I’ve learned that people also work at different paces. Some people like to power through and get to the solution quickly, and some like to think things through and come up with more elegant solutions. When you’re in a hurry to complete something, working with someone who likes to take their time can be frustrating. The inverse is also true (p -&amp;gt; q, ¬p -&amp;gt; ¬q).&lt;/p&gt;
 
 &lt;p&gt;Giving and receiving feedback has been a learning experience as well. While giving feedback I try to be honest and not pretend that something that was bothering me wasn’t bothering me. I do so because I hope that others will also give me their honest feedback as well. Looking at feedback from others, I sometimes think that it is a bit too diplomatic and it could benefit from some more directness.&lt;/p&gt;
 
@@ -353,6 +303,105 @@
         <pubDate>Sun, 31 Aug 2014 09:57:41 -0500</pubDate>
         <link>http://antonow.github.io/cultural/2014/08/31/education-problem.html</link>
         <guid isPermaLink="true">http://antonow.github.io/cultural/2014/08/31/education-problem.html</guid>
+        
+        
+        <category>cultural</category>
+        
+      </item>
+    
+      <item>
+        <title>When to Use Hashes in Ruby</title>
+        <description>&lt;p&gt;Hashes are like arrays in that they are lists of elements, but with a bit more complexity. Each item in a hash has two parts - the key (or index) and the value. This is an example of an array and a hash:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;n&quot;&gt;my_cool_array&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;Chuck&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;53&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;tarantula&amp;quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;my_cool_hash&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;name&amp;quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;Chuck&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;age&amp;quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;53&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;pet&amp;quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;tarantula&amp;quot;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;The additional complexity allows for a lot of cool things you can do with hashes that you wouldn’t be able to do with arrays.&lt;/p&gt;
+
+&lt;p&gt;If I wanted to find “tarantula” in the array, I’d need to remember that I once put it at index 2 and make sure that I don’t accidentally rearrange the elements of my array. With a hash, I can access “tarantula” easily, without regard to what order the hash elements are in, if I write my_cool_hash[“pet”].&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Keeping count&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Let’s say you want to keep a count of the number of times a word appears in a block of text. You can use a hash to store a word as a key the first time it appears and then increment it’s value by 1 when the word appears again.&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;c1&quot;&gt;# This is how you would add the first instance of a word to the hash:&lt;/span&gt;
+
+&lt;span class=&quot;n&quot;&gt;frequency_hash&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;spelunking&amp;quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;# When it appears again, this is how you increase it’s value:&lt;/span&gt;
+
+&lt;span class=&quot;n&quot;&gt;frequency_hash&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;spelunking&amp;quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;# Then, once all the words have been counted, your hash might look something like this:&lt;/span&gt;
+
+&lt;span class=&quot;n&quot;&gt;frequency_hash&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;spelunking&amp;quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;is&amp;quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;the&amp;quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;…&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;And viola! You have a list of all the words in the text along with a count of how many times they appear.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Making dictionaries and libraries&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Instead of assigning numbers as values, you can also assign strings or even other hashes. In this way you can build pretty complex data structures that are organized and easy to access.&lt;/p&gt;
+
+&lt;p&gt;Here’s an example of how you could use a hash to store information about your library:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;n&quot;&gt;my_library&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+	&lt;span class=&quot;s2&quot;&gt;&amp;quot;Pride and Prejudice&amp;quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;author&amp;quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;Jane Austen&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;year&amp;quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1813&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+	&lt;span class=&quot;s2&quot;&gt;&amp;quot;War and Peace&amp;quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;author&amp;quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;Leo Tolstoy&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;year&amp;quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1869&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+	&lt;span class=&quot;s2&quot;&gt;&amp;quot;Gorgias&amp;quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;author&amp;quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;Plato&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;year&amp;quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;380&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;Pass in optional parameters to a method&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Sometimes you want a method to be able to accept optional parameters. One way to do this is to put an asterisk in front of the parameter that should be optional, like so:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;do_something_cool&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;mandatory&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;optional&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+	&lt;span class=&quot;k&quot;&gt;do&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;____&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;optional&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;kp&quot;&gt;true&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;no&quot;&gt;But&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;you&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;can&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;also&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;do&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;it&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;with&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;hash&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;like&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;so&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+
+&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;do_something_cool&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;mandatory&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;:option1&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;kp&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;:option2&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;kp&quot;&gt;false&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;})&lt;/span&gt;
+	&lt;span class=&quot;k&quot;&gt;do&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;____&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;options&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;:option1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt;
+	&lt;span class=&quot;k&quot;&gt;do&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;____&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;options&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;:option2&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;I’m sure there are other great applications of hashes, but this is all I have for you today.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 30 Aug 2014 09:57:41 -0500</pubDate>
+        <link>http://antonow.github.io/technical/2014/08/30/hashes-in-ruby.html</link>
+        <guid isPermaLink="true">http://antonow.github.io/technical/2014/08/30/hashes-in-ruby.html</guid>
+        
+        
+        <category>technical</category>
+        
+      </item>
+    
+      <item>
+        <title>Learning Styles and Fixed vs. Growth Mindset</title>
+        <description>&lt;p&gt;Anthony Gregoric is a researcher and author who developed a model of how people think with four basic categories:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Concrete Sequential&lt;/li&gt;
+  &lt;li&gt;Abstract Sequential&lt;/li&gt;
+  &lt;li&gt;Concrete Random&lt;/li&gt;
+  &lt;li&gt;Abstract Random&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The concrete-abstract distinction refers to whether a person engages primarily with perceptual stimuli, the content of the ‘here and now’ (concrete), or with concepts and ideas (abstract). The difference between sequential and random is that a person scoring highest in sequential likely prefers to think linearly, follow step-by-step instructions, and plan for the future. The random thinker prefers to work non-linearly, starting in the middle, and going with the flow rather than making plans.&lt;/p&gt;
+
+&lt;p&gt;Of course, no one falls entirely within one of these categories. We all use these different strategies in different situations. There is a test designed to show you which combination you typically employ. The test can be found &lt;a href=&quot;http://www.thelearningweb.net/personalthink.html&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;I scored highest in the Abstract Sequential category. It seems fitting. I tend to try to think things through in an orderly way and uncover the assumptions underlying my beliefs. I think this focus on the logical will be helpful at Dev Bootcamp when trying to solve challenges because coding requires this kind of attention to detail and ability to engage with abstract objects. What may be more difficult to me is working with people who don’t think the way I do.&lt;/p&gt;
+
+&lt;p&gt;I want to also bring up briefly the Fixed vs. Growth mindset distinction that we’ve already been asked to consider several times in Phase 0 of Dev Bootcamp. A fixed mindset means you believe you are smart or dumb and you can’t do anything to change that. The growth mindset assumes that there is no smart or dumb, skilled or unskilled. There is just the place that you are at along the learning timeline/continuum and only through continued learning will you move forward.&lt;/p&gt;
+
+&lt;p&gt;Growing your mind means constantly pushing yourself to try new activities and learn new things. Simple activities like taking a different route when you go for a walk around the neighborhood or trying new recipes while cooking can help you to practice thinking in different ways. Learning a new language takes longer, but is also more effective in training your brain.&lt;/p&gt;
+
+&lt;p&gt;Dev Bootcamp, in its curriculum, sometimes brings up the advantages of meditation and the ability of daily meditation to reshape the brain in positive ways. Recently, I downloaded the &lt;a href=&quot;https://www.headspace.com&quot;&gt;Headspace app&lt;/a&gt;, and I am using it to do 10 minute meditations every day.&lt;/p&gt;
+
+</description>
+        <pubDate>Sun, 24 Aug 2014 09:57:41 -0500</pubDate>
+        <link>http://antonow.github.io/cultural/2014/08/24/learning-styles-fixed-growth-mindset.html</link>
+        <guid isPermaLink="true">http://antonow.github.io/cultural/2014/08/24/learning-styles-fixed-growth-mindset.html</guid>
         
         
         <category>cultural</category>

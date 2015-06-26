@@ -18,13 +18,11 @@ Of course, no one falls entirely within one of these categories. We all use thes
 
 I scored highest in the Abstract Sequential category. It seems fitting. I tend to try to think things through in an orderly way and uncover the assumptions underlying my beliefs. I think this focus on the logical will be helpful at Dev Bootcamp when trying to solve challenges because coding requires this kind of attention to detail and ability to engage with abstract objects. What may be more difficult to me is working with people who don't think the way I do.
 
-I want to also bring up briefly the Fixed vs. Growth mindset distinction that we've already been asked to consider several times in Phase 0 of Dev Bootcamp. If you think that you are naturally smart, you won't try as hard. You will probably feel very personally hurt when you fail at something. If you think that you inherently aren't as clever as other people, you may never really try to change that.
+I want to also bring up briefly the Fixed vs. Growth mindset distinction that we've already been asked to consider several times in Phase 0 of Dev Bootcamp. A fixed mindset means you believe you are smart or dumb and you can't do anything to change that. The growth mindset assumes that there is no smart or dumb, skilled or unskilled. There is just the place that you are at along the learning timeline/continuum and only through continued learning will you move forward.
 
-I think there are no inherently smart or dumb people. There are only those people who work hard to learn from every experience and others who think find it pointless because they think other people always will be smarter or dumber than they are. Of course, not trying is the best way to find yourself left behind. By staying in the growth mindset, you'll be too busy tracking your own progress to be constantly comparing yourself to others.
+Growing your mind means constantly pushing yourself to try new activities and learn new things. Simple activities like taking a different route when you go for a walk around the neighborhood or trying new recipes while cooking can help you to practice thinking in different ways. Learning a new language takes longer, but is also more effective in training your brain.
 
-Growing your mind means constantly pushing yourself to try new things and learn new things. Simple activities like taking a different route when you go for a walk around the neighborhood or trying new recipes while cooking can help you to practice thinking in different ways. Learning a new language is more work, but also  more effective in training your brain.
-
-Dev Bootcamp, in its curriculum, sometimes brings up the advantages of meditation and the ability of daily meditation to reshape the brain in positive ways. This is also something that I'm always trying to do more of. Recently, I downloaded the [Headspace app][head-space], and I am using it to do 10 minute meditations every day.
+Dev Bootcamp, in its curriculum, sometimes brings up the advantages of meditation and the ability of daily meditation to reshape the brain in positive ways. Recently, I downloaded the [Headspace app][head-space], and I am using it to do 10 minute meditations every day.
 
 [personal-think]: http://www.thelearningweb.net/personalthink.html
 [head-space]: https://www.headspace.com

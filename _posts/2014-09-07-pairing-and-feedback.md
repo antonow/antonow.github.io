@@ -15,7 +15,7 @@ On the other hand, there have been times while pairing that I was hoping to fini
 
 I’ve learned that I work best with a pair who is engaged with the challenge and has her own ideas about how to tackle it. I’d rather work with someone who is pushy than apathetic. At least if my pair is pushy, I can push back and we can have a productive discussion regarding the best route to take.
 
-I’ve learned that people also work at different paces. Some people like to power through and get to the solution quickly, and some like to think things through and come up with more elegant solutions. When you’re in a hurry to complete something, working with someone who likes to take their time can be frustrating. The inverse is also true.
+I’ve learned that people also work at different paces. Some people like to power through and get to the solution quickly, and some like to think things through and come up with more elegant solutions. When you’re in a hurry to complete something, working with someone who likes to take their time can be frustrating. The inverse is also true (p -> q, ¬p -> ¬q).
 
 Giving and receiving feedback has been a learning experience as well. While giving feedback I try to be honest and not pretend that something that was bothering me wasn’t bothering me. I do so because I hope that others will also give me their honest feedback as well. Looking at feedback from others, I sometimes think that it is a bit too diplomatic and it could benefit from some more directness.
 

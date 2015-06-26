@@ -31,3 +31,7 @@ Wealth was the last topic that someone had asked my advice on. The advice I gave
 Thinking about and ranking my values has been a helpful exercise. It helps me clarify what I stand for. I’m thinking of making this little application available online, but, at the moment, I don't know how to do that.
 
 *At the time of writing, TSLA is at $259.32.
+
+-----
+
+**6/25/15** This project inspired my Dev Bootcamp final project called [Belief Mapper](http://www.beliefmapper.com/).
