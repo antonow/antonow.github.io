@@ -12,7 +12,7 @@ $(document).ready(function(){
 				$('#outPopUp3').show();
 				$('#outPopUp3').addClass('lightSpeedIn');
 			}, 1500);
-			// $(this).submit();
+			$(this).submit();
 		}
 	});
 
