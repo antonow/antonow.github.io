@@ -1,23 +1,74 @@
----
-layout: default
----
-
-<div class="home">
-
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
-</div>
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+		<!-- <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'> -->
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" type="text/css" href="css/animate.css">
+		<script type="text/javascript" src="js/jquery-2.2.0.min.js"></script>
+		<script type="text/javascript" src="js/index.js"></script>
+	</head>
+	<body>
+		<div id="outPopUp">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4">
+						<img id="left-image" src="img/fractal-box-733918_1920.jpg">
+						<!-- <div class="circle"></div> -->
+						<!-- testing -->
+					</div>
+					<div class="col-md-8">
+						<h1>Web Design & Development</h1>
+						<br>
+						<div class="col-md-6">
+							<h4>Websites</h4>
+							<ul>
+								<a target="_blank" href="http://leaderbuilders.com/"><li>Leader Builders</li></a>
+								<a target="_blank" href="http://www.buydiscountproperty.com/"><li>Premium Real Estate Inc.</li></a>
+								<a target="_blank" href="https://www.pbsinconline.com/"><li>Professional Billing Solutions</li></a>
+								<a target="_blank" href="http://www.groupt.me/"><li>Groupt.me</li></a>
+							</ul>
+						</div>
+						<div class="col-md-6">
+							<h4>Other Projects</h4>
+							<ul>
+								<a target="_blank" href="http://www.beliefmapper.com/"><li>Belief Mapper</li></a>
+								<!-- <a href=""><li>Diaspora Pod</li></a> -->
+							</ul>
+							<h4>Available to Build</h4>
+							<ul>
+								<li>Websites &#149; Web/Mobile Apps</li>
+								<li>Please <a href="#" id="contact">contact us</a> for a quote</li>
+								<!-- <a href=""><li></li></a> -->
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="triangle0"></div>
+			<div id="triangle1"></div>
+			<div id="triangle2"></div>
+			<div id="triangle3"></div>
+		</div>
+		<div class="wrapper">
+			<span id="down-arrow" class="glyphicon glyphicon-circle-arrow-down animated" aria-hidden="true"></span>
+		</div>
+		<div id="outPopUp2" class="animated">
+			<span id="error">A message is required.</span>
+			<form action="http://formspree.io/alexantonow@gmail.com" method="POST">
+				<textarea placeholder="Message*" name="message"></textarea>
+				<span>
+					<input type="email" placeholder="Email" name="_replyto">
+					<input type="submit" value="Send">
+				</span>
+			</form>
+		</div>
+		<div id="outPopUp3" class="animated">
+			<h3>Thank You</h3>
+			<p>Your message has been received.</p>
+		</div>
+		<footer>
+			Fractal Cube Image by <a href="https://pixabay.com/en/fractal-box-fantasy-digital-art-733918/">pixel1</a> &#149; CSS Animations by <a href="https://daneden.github.io/animate.css/">Daniel Eden</a> <!-- &#149; Built with <a href="http://getbootstrap.com/">Bootstrap</a> -->
+		</footer>
+	</body>
+</html>
