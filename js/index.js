@@ -15,7 +15,14 @@ $(document).ready(function(){
 			$.ajax({
 				url: "http://formspree.io/alexantonow@gmail.com",
 				method: "POST",
-				data: $(this).serialize()
+				data: $(this).serialize(),
+				dataType: 'json',
+				success: function(data) {
+					console.log('success ' + data);
+				},
+				error: function(err) {
+					console.log('error ' + data);
+				}
 			})
 			// $(this).unbind().submit();
 		}
