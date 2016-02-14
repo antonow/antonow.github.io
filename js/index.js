@@ -12,7 +12,12 @@ $(document).ready(function(){
 				$('#outPopUp3').show();
 				$('#outPopUp3').addClass('lightSpeedIn');
 			}, 1500);
-			$(this).unbind().submit();
+			$.ajax({
+				url: "http://formspree.io/alexantonow@gmail.com",
+				method: "POST",
+				data: $(this).serialize()
+			})
+			// $(this).unbind().submit();
 		}
 	});
 
